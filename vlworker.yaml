@@ -1,0 +1,597 @@
+allow-lan: true
+clash-for-android:
+  append-system-dns: false
+external-controller: 0.0.0.0:7800
+log-level: info
+mixed-port: 7890
+mode: Rule
+port: 7891
+profile:
+  tracing: true
+proxies:
+- name: vlworker
+  network: ws
+  port: 443
+  server: japan.com
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_0_HK
+  network: ws
+  port: 443
+  server: 45.249.244.79
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_1_HK
+  network: ws
+  port: 443
+  server: 152.32.211.127
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_2_HK
+  network: ws
+  port: 443
+  server: 45.40.59.130
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_3_JP
+  network: ws
+  port: 443
+  server: 192.169.127.217
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_4_JP
+  network: ws
+  port: 443
+  server: 192.169.126.251
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_5_JP
+  network: ws
+  port: 443
+  server: 192.169.127.184
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_6_KR
+  network: ws
+  port: 443
+  server: 193.123.224.240
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_7_KR
+  network: ws
+  port: 443
+  server: 193.123.224.89
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_8_HK
+  network: ws
+  port: 443
+  server: 8.212.42.191
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_9_HK
+  network: ws
+  port: 443
+  server: 8.212.15.132
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_10_HK
+  network: ws
+  port: 443
+  server: 8.212.42.191
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_11_HK
+  network: ws
+  port: 443
+  server: 8.217.35.66
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_12_HK
+  network: ws
+  port: 443
+  server: 8.217.84.78
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_13_HK
+  network: ws
+  port: 443
+  server: 8.218.76.178
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_14_HK
+  network: ws
+  port: 443
+  server: 47.56.144.190
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_15_HK
+  network: ws
+  port: 443
+  server: 47.57.14.118
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_16_HK
+  network: ws
+  port: 443
+  server: 47.57.233.126
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_17_HK
+  network: ws
+  port: 443
+  server: 47.57.245.232
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_18_HK
+  network: ws
+  port: 443
+  server: 47.57.14.118
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_19_HK
+  network: ws
+  port: 443
+  server: 47.57.233.126
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_20_HK
+  network: ws
+  port: 443
+  server: 47.57.245.232
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_21_JP
+  network: ws
+  port: 443
+  server: 47.74.13.24
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_22_JP
+  network: ws
+  port: 443
+  server: 47.74.13.24
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_23_JP
+  network: ws
+  port: 443
+  server: 47.74.25.243
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_24_JP
+  network: ws
+  port: 443
+  server: 47.74.40.47
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_25_JP
+  network: ws
+  port: 443
+  server: 47.74.37.89
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_26_JP
+  network: ws
+  port: 443
+  server: 47.74.57.1
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_27_JP
+  network: ws
+  port: 443
+  server: 47.74.37.89
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_28_JP
+  network: ws
+  port: 443
+  server: 47.74.57.1
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_29_JP
+  network: ws
+  port: 443
+  server: 47.91.16.46
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_30_HK
+  network: ws
+  port: 443
+  server: 47.242.90.154
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_31_JP
+  network: ws
+  port: 443
+  server: 47.245.13.56
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_32_JP
+  network: ws
+  port: 443
+  server: 47.245.53.177
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+proxy-groups:
+- name: PROXY
+  proxies:
+  - AUTO
+  - DIRECT
+  - vlworker
+  - vl_0_HK
+  - vl_1_HK
+  - vl_2_HK
+  - vl_3_JP
+  - vl_4_JP
+  - vl_5_JP
+  - vl_6_KR
+  - vl_7_KR
+  - vl_8_HK
+  - vl_9_HK
+  - vl_10_HK
+  - vl_11_HK
+  - vl_12_HK
+  - vl_13_HK
+  - vl_14_HK
+  - vl_15_HK
+  - vl_16_HK
+  - vl_17_HK
+  - vl_18_HK
+  - vl_19_HK
+  - vl_20_HK
+  - vl_21_JP
+  - vl_22_JP
+  - vl_23_JP
+  - vl_24_JP
+  - vl_25_JP
+  - vl_26_JP
+  - vl_27_JP
+  - vl_28_JP
+  - vl_29_JP
+  - vl_30_HK
+  - vl_31_JP
+  - vl_32_JP
+  type: select
+- interval: 300
+  name: AUTO
+  proxies:
+  - vlworker
+  - vl_0_HK
+  - vl_1_HK
+  - vl_2_HK
+  - vl_3_JP
+  - vl_4_JP
+  - vl_5_JP
+  - vl_6_KR
+  - vl_7_KR
+  - vl_8_HK
+  - vl_9_HK
+  - vl_10_HK
+  - vl_11_HK
+  - vl_12_HK
+  - vl_13_HK
+  - vl_14_HK
+  - vl_15_HK
+  - vl_16_HK
+  - vl_17_HK
+  - vl_18_HK
+  - vl_19_HK
+  - vl_20_HK
+  - vl_21_JP
+  - vl_22_JP
+  - vl_23_JP
+  - vl_24_JP
+  - vl_25_JP
+  - vl_26_JP
+  - vl_27_JP
+  - vl_28_JP
+  - vl_29_JP
+  - vl_30_HK
+  - vl_31_JP
+  - vl_32_JP
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+rule-providers:
+  apple:
+    behavior: domain
+    interval: 86400
+    path: ./ruleset/apple.yaml
+    type: http
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt
+  applications:
+    behavior: classical
+    interval: 86400
+    path: ./ruleset/applications.yaml
+    type: http
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.txt
+  cncidr:
+    behavior: ipcidr
+    interval: 86400
+    path: ./ruleset/cncidr.yaml
+    type: http
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt
+  direct:
+    behavior: domain
+    interval: 86400
+    path: ./ruleset/direct.yaml
+    type: http
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt
+  gfw:
+    behavior: domain
+    interval: 86400
+    path: ./ruleset/gfw.yaml
+    type: http
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt
+  google:
+    behavior: domain
+    interval: 86400
+    path: ./ruleset/google.yaml
+    type: http
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt
+  icloud:
+    behavior: domain
+    interval: 86400
+    path: ./ruleset/icloud.yaml
+    type: http
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt
+  lancidr:
+    behavior: ipcidr
+    interval: 86400
+    path: ./ruleset/lancidr.yaml
+    type: http
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt
+  private:
+    behavior: domain
+    interval: 86400
+    path: ./ruleset/private.yaml
+    type: http
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt
+  proxy:
+    behavior: domain
+    interval: 86400
+    path: ./ruleset/proxy.yaml
+    type: http
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
+  reject:
+    behavior: domain
+    interval: 86400
+    path: ./ruleset/reject.yaml
+    type: http
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
+  telegramcidr:
+    behavior: ipcidr
+    interval: 86400
+    path: ./ruleset/telegramcidr.yaml
+    type: http
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt
+  tld-not-cn:
+    behavior: domain
+    interval: 86400
+    path: ./ruleset/tld-not-cn.yaml
+    type: http
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/tld-not-cn.txt
+rules:
+- RULE-SET,applications,DIRECT
+- DOMAIN,www.bing.com,PROXY
+- DOMAIN,services.googleapis.cn,PROXY
+- DOMAIN,clash.razord.top,DIRECT
+- DOMAIN,yacd.haishan.me,DIRECT
+- RULE-SET,private,DIRECT
+- RULE-SET,reject,REJECT
+- RULE-SET,icloud,DIRECT
+- RULE-SET,apple,DIRECT
+- RULE-SET,google,PROXY
+- RULE-SET,proxy,PROXY
+- RULE-SET,direct,DIRECT
+- RULE-SET,lancidr,DIRECT
+- RULE-SET,cncidr,DIRECT
+- RULE-SET,telegramcidr,PROXY
+- GEOIP,LAN,DIRECT
+- GEOIP,CN,DIRECT
+- MATCH,PROXY
+socks-port: 7892
