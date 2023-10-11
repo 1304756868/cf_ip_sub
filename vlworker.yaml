@@ -12,7 +12,7 @@ proxies:
 - name: vlworker
   network: ws
   port: 443
-  server: japan.com
+  server: time.is
   servername: host.japan.com
   tls: true
   type: vless
@@ -36,7 +36,7 @@ proxies:
 - name: vl_1_HK
   network: ws
   port: 443
-  server: 152.32.239.228
+  server: 152.32.211.127
   servername: host.japan.com
   tls: true
   type: vless
@@ -48,18 +48,6 @@ proxies:
 - name: vl_2_HK
   network: ws
   port: 443
-  server: 152.32.211.127
-  servername: host.japan.com
-  tls: true
-  type: vless
-  uuid: your_uuid
-  ws-opts:
-    headers:
-      Host: host.japan.com
-    path: /?ed=2048
-- name: vl_3_HK
-  network: ws
-  port: 443
   server: 45.40.59.130
   servername: host.japan.com
   tls: true
@@ -69,7 +57,7 @@ proxies:
     headers:
       Host: host.japan.com
     path: /?ed=2048
-- name: vl_4_JP
+- name: vl_3_JP
   network: ws
   port: 443
   server: 192.169.127.217
@@ -81,7 +69,7 @@ proxies:
     headers:
       Host: host.japan.com
     path: /?ed=2048
-- name: vl_5_JP
+- name: vl_4_JP
   network: ws
   port: 443
   server: 192.169.126.251
@@ -93,7 +81,7 @@ proxies:
     headers:
       Host: host.japan.com
     path: /?ed=2048
-- name: vl_6_JP
+- name: vl_5_JP
   network: ws
   port: 443
   server: 192.169.127.184
@@ -105,7 +93,7 @@ proxies:
     headers:
       Host: host.japan.com
     path: /?ed=2048
-- name: vl_7_JP
+- name: vl_6_JP
   network: ws
   port: 443
   server: 150.230.222.51
@@ -117,7 +105,7 @@ proxies:
     headers:
       Host: host.japan.com
     path: /?ed=2048
-- name: vl_8_KR
+- name: vl_7_KR
   network: ws
   port: 443
   server: 193.123.224.240
@@ -129,10 +117,22 @@ proxies:
     headers:
       Host: host.japan.com
     path: /?ed=2048
-- name: vl_9_KR
+- name: vl_8_KR
   network: ws
   port: 443
   server: 193.123.224.89
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_9_HK
+  network: ws
+  port: 443
+  server: 8.212.42.191
   servername: host.japan.com
   tls: true
   type: vless
@@ -156,7 +156,7 @@ proxies:
 - name: vl_11_HK
   network: ws
   port: 443
-  server: 8.217.84.78
+  server: 8.212.42.191
   servername: host.japan.com
   tls: true
   type: vless
@@ -168,7 +168,7 @@ proxies:
 - name: vl_12_HK
   network: ws
   port: 443
-  server: 8.218.76.178
+  server: 8.217.84.78
   servername: host.japan.com
   tls: true
   type: vless
@@ -180,7 +180,7 @@ proxies:
 - name: vl_13_HK
   network: ws
   port: 443
-  server: 47.56.144.190
+  server: 8.218.76.178
   servername: host.japan.com
   tls: true
   type: vless
@@ -192,7 +192,7 @@ proxies:
 - name: vl_14_HK
   network: ws
   port: 443
-  server: 47.57.14.118
+  server: 47.56.144.190
   servername: host.japan.com
   tls: true
   type: vless
@@ -204,7 +204,7 @@ proxies:
 - name: vl_15_HK
   network: ws
   port: 443
-  server: 47.57.233.126
+  server: 47.57.14.118
   servername: host.japan.com
   tls: true
   type: vless
@@ -216,7 +216,7 @@ proxies:
 - name: vl_16_HK
   network: ws
   port: 443
-  server: 47.57.245.232
+  server: 47.57.233.126
   servername: host.japan.com
   tls: true
   type: vless
@@ -228,7 +228,7 @@ proxies:
 - name: vl_17_HK
   network: ws
   port: 443
-  server: 47.57.14.118
+  server: 47.57.245.232
   servername: host.japan.com
   tls: true
   type: vless
@@ -240,7 +240,7 @@ proxies:
 - name: vl_18_HK
   network: ws
   port: 443
-  server: 47.57.233.126
+  server: 47.57.14.118
   servername: host.japan.com
   tls: true
   type: vless
@@ -252,7 +252,7 @@ proxies:
 - name: vl_19_HK
   network: ws
   port: 443
-  server: 47.57.245.232
+  server: 47.57.233.126
   servername: host.japan.com
   tls: true
   type: vless
@@ -414,13 +414,13 @@ proxy-groups:
   - vl_0_HK
   - vl_1_HK
   - vl_2_HK
-  - vl_3_HK
+  - vl_3_JP
   - vl_4_JP
   - vl_5_JP
   - vl_6_JP
-  - vl_7_JP
+  - vl_7_KR
   - vl_8_KR
-  - vl_9_KR
+  - vl_9_HK
   - vl_10_HK
   - vl_11_HK
   - vl_12_HK
@@ -451,13 +451,13 @@ proxy-groups:
   - vl_0_HK
   - vl_1_HK
   - vl_2_HK
-  - vl_3_HK
+  - vl_3_JP
   - vl_4_JP
   - vl_5_JP
   - vl_6_JP
-  - vl_7_JP
+  - vl_7_KR
   - vl_8_KR
-  - vl_9_KR
+  - vl_9_HK
   - vl_10_HK
   - vl_11_HK
   - vl_12_HK
