@@ -1,9 +1,9 @@
 # cf_ip_sub
-An automated program that is designed to perform daily testing and filtering of CF better IP addresses, updating into the subscribed links. Manual testing and filtering of CF better IP are no longer necessary. Simply update the subscription in Clash or V2RayN when needed.
+An automated program that is designed to perform daily testing and filtering of CF better IP addresses, updating into the subscribed links. Manual testing and filtering of CF better IP are no longer necessary. Simply update the subscription in Clash or V2RayN when needed.   
 IP source: https://github.com/hello-earth/cloudflare-better-ip
 
 **vlwoker.yaml**   
-Better IPs will be updating into this file daily. When the CF worker is invoked, it will read the content from here.
+Better IPs will be updating into this file daily. When the CF worker is invoked, it will read the content from here.   
 rule source: https://github.com/Loyalsoldier/clash-rules
 
 **nas**   
