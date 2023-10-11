@@ -4,7 +4,7 @@ IP source: https://github.com/hello-earth/cloudflare-better-ip
 
 **vlwoker.yaml**   
 Better IPs will be updating into this file daily. When the CF worker is invoked, it will read the content from here.   
-rule source: https://github.com/Loyalsoldier/clash-rules
+Rule source: https://github.com/Loyalsoldier/clash-rules
 
 **nas**   
 Program running in your nas or linux PC, performing daily testing and filtering of CF better IP addresses, updating them into "vlwoker.yaml" in this git.
