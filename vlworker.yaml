@@ -105,10 +105,10 @@ proxies:
     headers:
       Host: host.japan.com
     path: /?ed=2048
-- name: vl_7_KR
+- name: vl_7_JP
   network: ws
   port: 443
-  server: 193.123.224.240
+  server: 150.230.218.80
   servername: host.japan.com
   tls: true
   type: vless
@@ -120,7 +120,7 @@ proxies:
 - name: vl_8_KR
   network: ws
   port: 443
-  server: 193.123.224.89
+  server: 193.123.224.240
   servername: host.japan.com
   tls: true
   type: vless
@@ -129,10 +129,10 @@ proxies:
     headers:
       Host: host.japan.com
     path: /?ed=2048
-- name: vl_9_HK
+- name: vl_9_KR
   network: ws
   port: 443
-  server: 8.212.42.191
+  server: 193.123.224.89
   servername: host.japan.com
   tls: true
   type: vless
@@ -442,9 +442,9 @@ proxy-groups:
   - vl_4_JP
   - vl_5_JP
   - vl_6_JP
-  - vl_7_KR
+  - vl_7_JP
   - vl_8_KR
-  - vl_9_HK
+  - vl_9_KR
   - vl_10_HK
   - vl_11_HK
   - vl_12_HK
@@ -481,9 +481,9 @@ proxy-groups:
   - vl_4_JP
   - vl_5_JP
   - vl_6_JP
-  - vl_7_KR
+  - vl_7_JP
   - vl_8_KR
-  - vl_9_HK
+  - vl_9_KR
   - vl_10_HK
   - vl_11_HK
   - vl_12_HK
