@@ -24,6 +24,18 @@ proxies:
 - name: vl_0_HK
   network: ws
   port: 443
+  server: 118.26.38.134
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_1_HK
+  network: ws
+  port: 443
   server: 45.40.59.130
   servername: host.japan.com
   tls: true
@@ -33,10 +45,10 @@ proxies:
     headers:
       Host: host.japan.com
     path: /?ed=2048
-- name: vl_1_JP
+- name: vl_2_HK
   network: ws
   port: 443
-  server: 192.169.126.251
+  server: 129.227.139.137
   servername: host.japan.com
   tls: true
   type: vless
@@ -45,22 +57,10 @@ proxies:
     headers:
       Host: host.japan.com
     path: /?ed=2048
-- name: vl_2_JP
+- name: vl_3_HK
   network: ws
   port: 443
-  server: 192.169.127.184
-  servername: host.japan.com
-  tls: true
-  type: vless
-  uuid: your_uuid
-  ws-opts:
-    headers:
-      Host: host.japan.com
-    path: /?ed=2048
-- name: vl_3_JP
-  network: ws
-  port: 443
-  server: 192.169.127.217
+  server: 156.59.153.50
   servername: host.japan.com
   tls: true
   type: vless
@@ -72,7 +72,7 @@ proxies:
 - name: vl_4_JP
   network: ws
   port: 443
-  server: 45.78.54.144
+  server: 192.169.127.217
   servername: host.japan.com
   tls: true
   type: vless
@@ -81,7 +81,91 @@ proxies:
     headers:
       Host: host.japan.com
     path: /?ed=2048
-- name: vl_5_HK
+- name: vl_5_JP
+  network: ws
+  port: 443
+  server: 192.169.126.251
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_6_JP
+  network: ws
+  port: 443
+  server: 192.169.127.184
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_7_JP
+  network: ws
+  port: 443
+  server: 150.230.7.167
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_8_JP
+  network: ws
+  port: 443
+  server: 150.230.63.156
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_9_KR
+  network: ws
+  port: 443
+  server: 150.230.249.0
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_10_HK
+  network: ws
+  port: 443
+  server: 8.210.117.18
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_11_HK
+  network: ws
+  port: 443
+  server: 8.210.117.18
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_12_HK
   network: ws
   port: 443
   server: 8.212.46.146
@@ -93,7 +177,7 @@ proxies:
     headers:
       Host: host.japan.com
     path: /?ed=2048
-- name: vl_6_HK
+- name: vl_13_HK
   network: ws
   port: 443
   server: 8.212.46.146
@@ -105,10 +189,226 @@ proxies:
     headers:
       Host: host.japan.com
     path: /?ed=2048
-- name: vl_7_HK
+- name: vl_14_HK
+  network: ws
+  port: 443
+  server: 8.217.176.60
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_15_HK
+  network: ws
+  port: 443
+  server: 8.217.176.60
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_16_HK
+  network: ws
+  port: 443
+  server: 8.218.149.193
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_17_HK
+  network: ws
+  port: 443
+  server: 47.57.15.197
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_18_HK
   network: ws
   port: 443
   server: 47.57.3.221
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_19_HK
+  network: ws
+  port: 443
+  server: 47.57.70.177
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_20_HK
+  network: ws
+  port: 443
+  server: 47.57.15.197
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_21_HK
+  network: ws
+  port: 443
+  server: 47.57.70.177
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_22_JP
+  network: ws
+  port: 443
+  server: 47.74.19.240
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_23_JP
+  network: ws
+  port: 443
+  server: 47.74.6.73
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_24_JP
+  network: ws
+  port: 443
+  server: 47.74.10.41
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_25_JP
+  network: ws
+  port: 443
+  server: 47.74.19.240
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_26_JP
+  network: ws
+  port: 443
+  server: 47.74.6.73
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_27_JP
+  network: ws
+  port: 443
+  server: 47.74.61.146
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_28_JP
+  network: ws
+  port: 443
+  server: 47.74.61.146
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_29_HK
+  network: ws
+  port: 443
+  server: 47.242.40.64
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_30_HK
+  network: ws
+  port: 443
+  server: 47.243.161.235
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_31_HK
+  network: ws
+  port: 443
+  server: 47.243.161.235
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_32_JP
+  network: ws
+  port: 443
+  server: 47.245.1.183
   servername: host.japan.com
   tls: true
   type: vless
@@ -124,26 +424,76 @@ proxy-groups:
   - DIRECT
   - vlworker
   - vl_0_HK
-  - vl_1_JP
-  - vl_2_JP
-  - vl_3_JP
+  - vl_1_HK
+  - vl_2_HK
+  - vl_3_HK
   - vl_4_JP
-  - vl_5_HK
-  - vl_6_HK
-  - vl_7_HK
+  - vl_5_JP
+  - vl_6_JP
+  - vl_7_JP
+  - vl_8_JP
+  - vl_9_KR
+  - vl_10_HK
+  - vl_11_HK
+  - vl_12_HK
+  - vl_13_HK
+  - vl_14_HK
+  - vl_15_HK
+  - vl_16_HK
+  - vl_17_HK
+  - vl_18_HK
+  - vl_19_HK
+  - vl_20_HK
+  - vl_21_HK
+  - vl_22_JP
+  - vl_23_JP
+  - vl_24_JP
+  - vl_25_JP
+  - vl_26_JP
+  - vl_27_JP
+  - vl_28_JP
+  - vl_29_HK
+  - vl_30_HK
+  - vl_31_HK
+  - vl_32_JP
   type: select
 - interval: 300
   name: AUTO
   proxies:
   - vlworker
   - vl_0_HK
-  - vl_1_JP
-  - vl_2_JP
-  - vl_3_JP
+  - vl_1_HK
+  - vl_2_HK
+  - vl_3_HK
   - vl_4_JP
-  - vl_5_HK
-  - vl_6_HK
-  - vl_7_HK
+  - vl_5_JP
+  - vl_6_JP
+  - vl_7_JP
+  - vl_8_JP
+  - vl_9_KR
+  - vl_10_HK
+  - vl_11_HK
+  - vl_12_HK
+  - vl_13_HK
+  - vl_14_HK
+  - vl_15_HK
+  - vl_16_HK
+  - vl_17_HK
+  - vl_18_HK
+  - vl_19_HK
+  - vl_20_HK
+  - vl_21_HK
+  - vl_22_JP
+  - vl_23_JP
+  - vl_24_JP
+  - vl_25_JP
+  - vl_26_JP
+  - vl_27_JP
+  - vl_28_JP
+  - vl_29_HK
+  - vl_30_HK
+  - vl_31_HK
+  - vl_32_JP
   type: url-test
   url: http://www.gstatic.com/generate_204
 rule-providers:
