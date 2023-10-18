@@ -45,10 +45,10 @@ proxies:
     headers:
       Host: host.japan.com
     path: /?ed=2048
-- name: vl_2_HK
+- name: vl_2_JP
   network: ws
   port: 443
-  server: 156.59.153.50
+  server: 192.169.126.251
   servername: host.japan.com
   tls: true
   type: vless
@@ -81,10 +81,10 @@ proxies:
     headers:
       Host: host.japan.com
     path: /?ed=2048
-- name: vl_5_JP
+- name: vl_5_KR
   network: ws
   port: 443
-  server: 192.169.126.251
+  server: 130.162.153.166
   servername: host.japan.com
   tls: true
   type: vless
@@ -96,18 +96,6 @@ proxies:
 - name: vl_6_KR
   network: ws
   port: 443
-  server: 130.162.144.196
-  servername: host.japan.com
-  tls: true
-  type: vless
-  uuid: your_uuid
-  ws-opts:
-    headers:
-      Host: host.japan.com
-    path: /?ed=2048
-- name: vl_7_KR
-  network: ws
-  port: 443
   server: 131.186.23.94
   servername: host.japan.com
   tls: true
@@ -117,10 +105,10 @@ proxies:
     headers:
       Host: host.japan.com
     path: /?ed=2048
-- name: vl_8_KR
+- name: vl_7_HK
   network: ws
   port: 443
-  server: 146.56.161.229
+  server: 8.212.13.139
   servername: host.japan.com
   tls: true
   type: vless
@@ -129,10 +117,22 @@ proxies:
     headers:
       Host: host.japan.com
     path: /?ed=2048
-- name: vl_9_KR
+- name: vl_8_HK
   network: ws
   port: 443
-  server: 193.123.241.236
+  server: 8.212.17.12
+  servername: host.japan.com
+  tls: true
+  type: vless
+  uuid: your_uuid
+  ws-opts:
+    headers:
+      Host: host.japan.com
+    path: /?ed=2048
+- name: vl_9_HK
+  network: ws
+  port: 443
+  server: 8.212.17.12
   servername: host.japan.com
   tls: true
   type: vless
@@ -144,7 +144,7 @@ proxies:
 - name: vl_10_JP
   network: ws
   port: 443
-  server: 47.245.1.183
+  server: 47.91.14.156
   servername: host.japan.com
   tls: true
   type: vless
@@ -161,14 +161,14 @@ proxy-groups:
   - vlworker
   - vl_0_HK
   - vl_1_HK
-  - vl_2_HK
+  - vl_2_JP
   - vl_3_JP
   - vl_4_JP
-  - vl_5_JP
+  - vl_5_KR
   - vl_6_KR
-  - vl_7_KR
-  - vl_8_KR
-  - vl_9_KR
+  - vl_7_HK
+  - vl_8_HK
+  - vl_9_HK
   - vl_10_JP
   type: select
 - interval: 300
@@ -177,14 +177,14 @@ proxy-groups:
   - vlworker
   - vl_0_HK
   - vl_1_HK
-  - vl_2_HK
+  - vl_2_JP
   - vl_3_JP
   - vl_4_JP
-  - vl_5_JP
+  - vl_5_KR
   - vl_6_KR
-  - vl_7_KR
-  - vl_8_KR
-  - vl_9_KR
+  - vl_7_HK
+  - vl_8_HK
+  - vl_9_HK
   - vl_10_JP
   type: url-test
   url: http://www.gstatic.com/generate_204
